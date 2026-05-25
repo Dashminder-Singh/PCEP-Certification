@@ -1,0 +1,9 @@
+income = 250_000
+lowtaxland_rate = 0.05 # 5%
+ripoffland_rate = 0.43 #43%
+
+Lowtaxland = income * lowtaxland_rate
+Ripoffland = income * ripoffland_rate
+difference = Ripoffland - Lowtaxland
+
+print('Your income is',income,'and you would pay',Lowtaxland,'income tax in Lowtaxland or',Ripoffland,'income tax in Ripoffland.You would save',difference,'by paying taxes in Lowtaxland!')
